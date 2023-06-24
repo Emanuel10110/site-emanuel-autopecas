@@ -1,0 +1,22 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+
+:root {
+    --cor-de-fundo: #1a1919;
+    --branco: #FFFFFF;
+    --azul: #090172;
+    --laranja: #ff7e06;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 40%;
+}
